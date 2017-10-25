@@ -107,7 +107,7 @@ def getRecommendations(prefs,person,similarity = sim_pearson):
     return rankings
     
 
-#对调原字典的人名和物品!!!!!!!!!!!!此段没有运行成功
+#对调原字典的人名和物品
 def transformPrefs(prefs):
     result = {}
     for person in prefs:
